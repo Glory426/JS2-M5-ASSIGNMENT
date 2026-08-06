@@ -1,4 +1,5 @@
 // STEP 1
+
 // Named declaration
 class Cat {
 
@@ -10,6 +11,7 @@ let Dog = class {
 };
 
 // STEP 2
+
 class Cat {
 
 }
@@ -22,6 +24,7 @@ let myCat = new Cat();
 let myDog = new Dog();
 
 // STEP 3
+
 class Animal {
     constructor() {
         console.log("The Animal has been created");
@@ -31,6 +34,7 @@ class Animal {
 let animal = new Animal();
 
 // STEP 4
+
 class Animal {
     constructor(message) {
         console.log(message);
@@ -40,6 +44,7 @@ class Animal {
 let animal = new Animal("The Animal has been created");
 
 // STEP 5
+
 class Animal {
     constructor(type, breed, color, height, length) {
         this.type = type;
@@ -82,6 +87,7 @@ for (let property in animal) {
     console.log(property + ": " + animal[property]);
 }
 // STEP 7
+
 class Animal {
     constructor(type, breed, color, height, length) {
         this.type = type;
@@ -109,6 +115,7 @@ let animal = new Animal(
 );
 
 // STEP 8
+
 class Animal {
     #type;
     #breed;
@@ -148,6 +155,7 @@ let animal = new Animal(
 console.log(animal.speak());
 
 // STEP 9
+
 String.prototype.findWords = function (word) {
 
     let regex = new RegExp(word, "gi");
